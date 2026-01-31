@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Monumental Tutoring</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 16px; line-height: 1.6; }
+    header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 12px; }
+    .tag { color: #444; }
+    nav a { margin-right: 12px; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 16px; margin: 18px 0; }
+    h1, h2 { margin: 0.2em 0; }
+    footer { margin-top: 40px; color: #666; font-size: 14px; }
+    .btn { display: inline-block; padding: 10px 14px; border: 1px solid #222; border-radius: 10px; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Monumental Tutoring</h1>
+    <div class="tag">Standardized tests, Math, Reading Comprehension, Writing • Pre-k to 6th grade • Online</div>
+  </div>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="card">
+  <h2>Get Unstuck — and Get Ahead</h2>
+  <p>
+    I help students build confidence and raise grades in <strong>[subject]</strong> with clear explanations,
+    practice plans, and supportive coaching.
+  </p>
+  <p>
+    <a class="btn" href="#contact">Request a free intro call</a>
+  </p>
+</section>
+
+<section id="services" class="card">
+  <h2>Services</h2>
+  <ul>
+    <li><strong>1:1 Tutoring:</strong> Personalized lessons and homework help</li>
+    <li><strong>Test Prep:</strong> [SAT/ACT/AP/Regents/etc.] strategies + practice</li>
+    <li><strong>Study Skills:</strong> Organization, planning, and accountability</li>
+  </ul>
+</section>
+
+<section id="pricing" class="card">
+  <h2>Pricing</h2>
+  <p><strong>[Your rate]</strong> per hour (discounts available for weekly packages).</p>
+  <p><em>Sliding scale / group sessions available on request (optional).</em></p>
+</section>
+
+<section id="about" class="card">
+  <h2>About</h2>
+  <p>
+    Hi! I’m [Your Name]. I’ve worked with students in [experience: years/grades/subjects].
+    My style is patient, structured, and focused on long-term understanding.
+  </p>
+</section>
+
+<section id="contact" class="card">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:[your-email@example.com]">[your-email@example.com]</a></p>
+  <p>Phone/Text (optional): [your number]</p>
+  <p>Location (optional): [City/Area] • Availability: [days/times]</p>
+</section>
+
+<footer>
+  © <span id="y"></span> [Your Name] Tutoring
+</footer>
+
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
